@@ -14,9 +14,18 @@ Cuando se ejecuta el programa, se visualiza el sol como estrella principal en el
 
 ![Sistema solar](/sistema_solar.gif "SystemSolar")
 
+
+## Controles
+- **Teclas 'W'-'S':** La nave se mueve verticalmente tanto en la vista general como en 1º persona.
+- **Teclas 'A'-'D':** La nave se mueve horizontalmente tanto en la vista general como en 1º persona.
+- **Teclas 'Z'-'X':** En 1º persona, para desplazarse adelante o atrás.
+- **Tecla 'R':** Se resetea la posición de la nave.
+- **tecla ENTER:** Cambia la vista entre 1ºpersona de la nave y la vista general.
+
+
 ## Organización del código
 
-<p style=”text-align: justify;”>Primero establecemos unas variables globales: declaramos unas variables float que nos indicaran el angulo del planeta respecto al sol. Además, se añade unas variables para la posiciones de los planetas y PShape variables globales para cada planeta, así como para el fondo del sistema solar un PImage.</p>
+<p style=”text-align: justify;”>Existen dos ficheros, el fichero sistema_solar estan las funciones setup() y draw() y las funciones respecto a la creación y visualización del todo sistema solar, por otro lado tenemos a la clase nave. Primero establecemos unas variables globales: declaramos unas variables float que nos indicaran el angulo del planeta respecto al sol. Además, se añade unas variables para la posiciones de los planetas y PShape variables globales para cada planeta, así como para el fondo del sistema solar un PImage.</p>
 
 En la función setup() establecemos el tamaño de la pantalla completa, y diversos valores de las variables globales explicados anteriormente y generamos los planetas correspondientes medianteo el método createPlanet() que se explicará a continuación.
 
@@ -37,4 +46,4 @@ A partir de la función draw() llamaremos a una serie de funciones que explicamo
 -	**getAngOrbita():** Devuelve el angulo de la orbita actual de cada planeta correspondiente.
 
 ## Descarga e instalación
-Para poder probar este programa es necesario descargar la carpeta entera, así como la carpeta /data, para poder descargar todas las texturas necesarias para la ejecución.
+Para poder probar este programa es necesario descargar la carpeta entera llamada sistema_solar, así como la carpeta /data, para poder descargar todas las texturas necesarias para la ejecución.
