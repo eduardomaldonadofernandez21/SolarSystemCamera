@@ -7,10 +7,10 @@ Curso: 4º
 Autor: Eduardo Maldonado Fernández
 
 ## Introducción
-Se ha realizado un programa en processing que crear un prototipo del sistema solar con 6 planetas: Mercurio, Venus, La tierra, Marte, Júpiter, Neptuno y el propio sol como estrella en la que giran el resto de planetas nombrados. Además, se ha añadido varias lunas.
+Se ha realizado un programa en processing que crear un prototipo del sistema solar con 6 planetas: Mercurio, Venus, La tierra, Marte, Júpiter, Neptuno y el propio sol como estrella en la que giran el resto de planetas nombrados. En esta nueva práctica se le ha añadido una nave que se puede desplazar por todo el sistema solar tanto desde una perspectiva general del sistema como desde la primera persona de la nave.
 
 ## Descripción
-Cuando se ejecuta el programa, se visualiza el sol como estrella principal en el medio del sistema y los planetas alrededor de esta estrella siguiendo la misma ubicación que en la realidad. Se ha añadido que la posición en el ejeY sea random de un cierto rango para mayor realismo. En cuanto a los planetas más cercanos al sol, giran a una velocidad de traslación mucho mayor respecto a otro más lejanos como pueden ser Neptuno o Júpiter.
+Cuando se ejecuta el programa, se visualiza el sol como estrella principal en el medio del sistema y los planetas alrededor de esta estrella siguiendo la misma ubicación que en la realidad. Se ha añadido que la posición en el ejeY sea random de un cierto rango para mayor realismo. En cuanto a los planetas más cercanos al sol, giran a una velocidad de traslación mucho mayor respecto a otro más lejanos como pueden ser Neptuno o Júpiter. En cuanto a la nave, se ha creado una propia clase con sus atributos correspondientes como las posiciones.
 
 ![Sistema solar](/sistema_solar.gif "SystemSolar")
 
@@ -37,4 +37,4 @@ A partir de la función draw() llamaremos a una serie de funciones que explicamo
 -	**getAngOrbita():** Devuelve el angulo de la orbita actual de cada planeta correspondiente.
 
 ## Descarga e instalación
-Para poder probar este programa es necesario descargar el fichero sistema_solar.pde, así como la carpeta /data, para poder descargar todas las texturas necesarias para la ejecución.
+Para poder probar este programa es necesario descargar la carpeta entera, así como la carpeta /data, para poder descargar todas las texturas necesarias para la ejecución.
